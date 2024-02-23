@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission</title>
+    <link rel="stylesheet" href="admission.css">
+</head>
+<body>
+    
+    <!--Heading-->
+    <div>
+        <h1>Apna Library <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            -: and :-<br>
+            Study Center
+        </h1>
+    </div>
+
+    <!--Options-->
+    <div>
+        <ul>
+            <li><a href="C:\Users\aditya kumar\Desktop\Apna_library\Home\Home.html">Home</a></li>
+            <li><a href="C:\Users\aditya kumar\Desktop\Apna_library\Service\Service.html">Service</a></li>
+            <li><a href="C:\Users\aditya kumar\Desktop\Apna_library\Admission\Admission.html">Admission</a></li>
+        </ul>
+    </div>
+    <div style="display: flex;">
+        <div>
+            <img src="C:\Users\aditya kumar\Desktop\Apna_library\Admission\admission logo.png" alt="pic error"
+            style="height: 16em; width: 16em; margin-top: 7em; margin-left: 5em;"
+            >
+        </div>
+
+        <div style="margin-left: 6em; margin-top: 6em;">
+            <center>
+                <div style="width: 600px; height: 450px;background-color: skyblue;">
+                <h2 style="font-size: 20px;"><u>Admission Form</u></h2>
+                <from action="/Submit">
+                
+                    <label for="First Name"></label>
+                    
+                    <label for="Middle Name"></label>
+                    
+                    <label for="Last Name"></label>
+
+                        <br>
+
+                    <input type="text" id="First Name" placeholder="First Name"> &nbsp;
+                    <input type="text" id="Middle Name" placeholder="Middle Name (if any)"> &nbsp;
+                    <input type="text" id="Last Name" placeholder="Last Name"> 
+                        <br>
+                        <br>
+                    <label for="DOB" style="margin-left: -3em;">DOB</label>
+                    
+                    <label for="Age" style="margin-left: 4em;">Age</label>
+                    
+                    <label for="Phone Number" style="margin-left: 3em;">Phone Number</label>
+                    <br>
+                    <input type="date" id="DOB">&nbsp;
+                    <input type="number" id="Age" style="width: 4em;">&nbsp;
+                    <input type="text" id="Phone Number">
+                        <br>
+                        <br>
+                    <input type="radio" name="gender" id="gender">
+                    <label for="gender">Male</label>
+                    <input type="radio" name="gender" id="gender">
+                    <label for="gender">Female</label>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <label for="Gmail">Gmail</label>
+                    <input type="text" id="Gmail">
+                        <br>
+                        <br>
+                    <label for="Father's Name">Father's Name</label>
+                    <input type="text" id="Father's Name">
+                    <label for="Phone Number">Phone Number</label>
+                    <input type="text" id="Phone Number">
+                        <br />
+                        <br />
+                    <label for="adrs">village/Town</label>
+                    <input type="text" name="adrs" id="adrs">
+                    &nbsp;&nbsp;District:
+                    <select name="dist" id="dist">
+                        <option value=""selected>Select an option</option>
+                        <option value="ar">Araria</option>
+                        <option value="arw">Arwal</option>
+                        <option value="arg">Aurangabad</option>
+                        <option value="ban">Banka</option>
+                        <option value="begu">Begusarai</option>
+                        <option value="bhag">Bhagalpur</option>
+                        <option value="bhoj">Bhojpur</option>
+                        <option value="bux">Buxar</option>
+                        <option value="dar">Darbhanga</option>
+                        <option value="Ec">East Champaran</option>
+                        <option value="gy">Gaya</option>
+                        <option value="gpl">Gopalganj</option>
+                        <option value="jmu">Jamui</option>
+                        <option value="jhn">Jehnabad</option>
+                        <option value="khg">Khagaria</option>
+                        <option value="kng">Kishanganj</option>
+                        <option value="kmr">Kaimur</option>
+                        <option value="ktr">Katihar</option>
+                        <option value="lkh">Lakisarai</option>
+                        <option value="mdh">Madhubani</option>
+                        <option value="mng">Munger</option>
+                        <option value="mdr">Madhepura</option>
+                        <option value="mzr">Muzaffarpur</option>
+                        <option value="nld">Nalanda</option>
+                        <option value="nwd">Nawada</option>
+                        <option value="ptn">Patna</option>
+                        <option value="prn">Purnia</option>
+                        <option value="rts">Rohtas</option>
+                        <option value="shr">Saharsa</option>
+                        <option value="smt">Samastipur</option>
+                        <option value="she">Sheohar</option>
+                        <option value="skh">Sheikhpura</option>
+                        <option value="srn">Saran</option>
+                        <option value="stm">Sitamarhi</option>
+                        <option value="spl">Supaul</option>
+                        <option value="swn">Siwan</option>
+                        <option value="vsh">Vaishali</option>
+                        <option value="wc">West Champaran</option>
+                    </select>
+                        <br />
+                        <br />
+                    <label for="pc"></label>
+                    <input type="number" name="pc" id="pc" placeholder="pin-code">
+                    State:
+                    <select name="state" id="state">
+                        <option value="SS">Select State</option>
+						<option value="ap">Andhra Pradesh</option>
+						<option value="arp">Arunachal Pradesh</option>
+						<option value="asm">Assam</option>
+						<option value="bhr">Bihar</option>
+						<option value="cht">Chhattisgarh</option>
+						<option value="goa">Goa</option>
+						<option value="guj">Gujrat</option>
+						<option value="hrn">Haryana</option>
+						<option value="hp">Himachal Pradesh</option>
+						<option value="jhr">Jharkand</option>
+						<option value="knt">Karnatak</option>
+						<option value="krl">Kerala</option>
+						<option value="mp">Madhya Pradesh</option>
+						<option value="mhr">Maharastra</option>
+						<option value="mnp">Manipur</option>
+						<option value="mgh">Meghalaya</option>
+						<option value="mz">Mizoram</option>
+						<option value="Ngl">Nagaland</option>
+						<option value="Od">Odisha</option>
+						<option value="pnb">Punjab</option>
+						<option value="Rjs">Rajasthan</option>
+						<option value="skm">Sikkim</option>
+						<option value="tn">Tamil Nadu</option>
+						<option value="tng">Telangana</option>
+						<option value="trp">Tripura</option>
+						<option value="up">Uttar Pradesh</option>
+						<option value="utr">Uttarakhand</option>
+						<option value="wb">west Bangal</option> 
+                    </select>
+                        <br />
+                        <br />
+                    Term and condtion:<br />
+                    <input type="checkbox" name="tc" id="tc">
+                    <label for="tc">Above all informations are correct and mine.</label> <br />
+                    <input type="checkbox" name="tc" id="tc">
+                    <label for="tc">Any type of misbehave, you should suspend.</label>
+                
+                    <br><br>
+                    <a href="C:\Users\aditya kumar\Desktop\Apna_library Project - 1\Submit\submit.html" class="submit">Submit</a>
+                </from>
+                </div>
+            </center> 
+        </div>
+        
+        <div class="cnt">
+            <p style="font-size: 1.5em;margin-top: 0.7em;">Build Your Career <br>With us</p>
+            <img src="C:\Users\aditya kumar\Desktop\Apna_library\Admission\cnt logo.jpeg" alt="pic error"
+                height="125em" width="170em" style="margin-top: -1em; border-radius: 1em;"
+            >
+        </div>
+
+    </div>
+
+    <!--Fotter-->
+    <div style="display: flex;">
+        <div style="margin-top: 5em; margin-left: 4em;">
+            <div class="fotter">
+                <div class="infotter">
+                    <div style="display: flex;">
+                        <img src="C:\Users\aditya kumar\Desktop\Apna_library\Image\gmaillogo" alt="pic error" class="gf">
+                        <a href="https://shorturl.at/fzC15" class="cf" style="margin-top: 1.5em"> - samratadi4321@gmail.com</a>
+                    </div>
+
+                    <p></p>
+
+                    <div style="display: flex;">
+                        <img src="C:\Users\aditya kumar\Desktop\Apna_library\Image\phone logo.png" alt="pic error" class="pf">
+                        <p class="cf"> &nbsp; - 7485875137</p>
+                    </div>
+
+                    <p></p>
+
+                    <div style="display: flex;">
+                        <img src="C:\Users\aditya kumar\Desktop\Apna_library\Image\addrss logo.jpeg" alt="pic error" class="af">
+                        <p class="cf"> &nbsp; -Prabhat Colony,Purnia</p>
+                        <p> &nbsp; (Main Office)</p>
+                    </div>
+
+                    <p></p>
+
+                    <div style="margin-top: 4em;">
+                        <h3>Apna Library <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            -: and :-<br>
+                            Study Center
+                        </h3>
+                        <img src="C:\Users\aditya kumar\Desktop\Apna_library\Image\wallpaper 2.jpeg" alt="pic error" class="wpf">
+                    </div>
+
+                    <div style="display: flex; margin-top: -3em;">
+                        <a href="https://wa.me/message/LRFB7EDW2IB3E1" target="new" >
+                            <img src="C:\Users\aditya kumar\Desktop\Apna_library\Image\whatsapp logo.png" alt="pic error" class="wf">
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/aditya-samrat-7a431727a/">
+                            <img src="C:\Users\aditya kumar\Desktop\Apna_library\Image\linkedin logo.png" alt="pic error" class="lf"
+                            style="margin-top: 0.5em;"
+                            >
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div> 
+
+        <div class="thnx">
+            <p>Thanks for coming <br> 
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and <br>
+                Visit us. &hearts;
+            </p>
+        </div>
+    </div>
+</body>
+</html>
